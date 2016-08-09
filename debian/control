@@ -8,7 +8,7 @@ Homepage: https://forge.puppet.com/puppet/collectd
 
 Package: puppet-module-puppet-collectd
 Architecture: all
-Depends: ${misc:Depends}, puppet-common
+Depends: ${misc:Depends}, puppet-common, puppet-module-puppetlabs-stdlib, puppet-module-puppetlabs-concat
 Description: Puppet module collectd
  Puppet lets you centrally manage every important aspect of your system
  using a cross-platform specification language that manages all the
